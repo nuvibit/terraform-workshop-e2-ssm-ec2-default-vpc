@@ -3,11 +3,11 @@ Learn Terraform Exercise with EC2 Instance in default VPC and using SSM to login
 
 Goals of this Exercise:
 
-[ ] Read this entire readme
-[ ] Read and try to understand all the terraform files
-[ ] Connect to SSM on your instance, customize the code for your usecase
-[ ] Create a payload on the EC2 instance as in the example and configure a tunnel / port forwarding.
-[ ] improve your SSM setup: e.g. configure another shell -> Git Branch enable_session-manager-settings
+- [ ] Read this entire readme
+- [ ] Read and try to understand all the terraform files
+- [ ] Connect to SSM on your instance, customize the code for your usecase
+- [ ] Create a payload on the EC2 instance as in the example and configure a tunnel / port forwarding.
+- [ ] improve your SSM setup: e.g. configure another shell -> Git Branch enable_session-manager-settings
 
 *:rocket:*
 
@@ -51,9 +51,12 @@ Port forwarding using Systems Manager Session insted of ssh -L, see also
 https://aws.amazon.com/blogs/aws/new-port-forwarding-using-aws-system-manager-sessions-manager/
 
 Preparatory Tasks:
-[ ] Install the Session Manager Plugin
-[ ] Create Test Payload / Website
+- [ ] Install the Session Manager Plugin
+- [ ] Create Test Payload / Website
 
+Tasks
+- [ ] Configure and use port forwarding
+- [ ] Reconfigure SSM Settings
 
 ##### Install the Session Manager plugin for the AWS CLI, see also
 
