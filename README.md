@@ -9,7 +9,7 @@ Goals of this Exercise:
 - [ ] Create a payload on the EC2 instance as in the example and configure a tunnel / port forwarding.
 - [ ] improve your SSM setup: e.g. configure another shell -> Git Branch enable_session-manager-settings
 
-*:rocket:*
+## 🚧 -> 🚀
 
 Terraform workflow:
 
