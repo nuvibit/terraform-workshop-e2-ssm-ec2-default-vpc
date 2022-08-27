@@ -84,3 +84,4 @@ By default, sessions on EC2 instances for Linux start using the Bourne shell (sh
 
 see also: https://docs.aws.amazon.com/systems-manager/latest/userguide/session-preferences-shell-config.html
 
+--> checkout git branch `enable_session-manager-settings`
