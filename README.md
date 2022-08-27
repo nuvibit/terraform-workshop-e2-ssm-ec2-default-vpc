@@ -106,4 +106,21 @@ By default, sessions on EC2 instances for Linux start using the Bourne shell (sh
 
 see also: https://docs.aws.amazon.com/systems-manager/latest/userguide/session-preferences-shell-config.html
 
---> checkout git branch `enable_session-manager-settings`
+### 🛠 🚜
+
+Change the setting also use terraform module
+
+```terraform
+module "session-manager-settings" {
+  source  = "gazoakley/session-manager-settings/aws"
+
+  s3_bucket_name            = "my-session-logs-bucket"
+  cloudwatch_log_group_name = "/ssm/session-logs"
+}
+```
+
+Important:
+* see issue https://github.com/gazoakley/terraform-aws-session-manager-settings/issues/1
+* manually delete Session Manager settings and redeploy it with terraform
+  `aws ssm delete-document --name SSM-SessionManagerRunShell``
+  `terraform apply`
