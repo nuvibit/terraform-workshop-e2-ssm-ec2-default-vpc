@@ -12,7 +12,7 @@ terraform apply my-tf-plan.tfplan
 
 Now test access with Systems Manager and this console:
 
-!(./docs/AWS_SSM_E2_Step_1.png)
-!(./docs/AWS_SSM_E2_Step_2.png)
-!(./docs/AWS_SSM_E2_Step_3.png)
-!(./docs/AWS_SSM_E2_Step_4.png)
+![AWS Systems Manager Console Step 1](./docs/AWS_SSM_E2_Step_1.png)
+![AWS Systems Manager Console Step 2](./docs/AWS_SSM_E2_Step_2.png)
+![AWS Systems Manager Console Step 3](./docs/AWS_SSM_E2_Step_3.png)
+![AWS Systems Manager Console Step 4](./docs/AWS_SSM_E2_Step_4.png)
