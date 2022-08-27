@@ -1,5 +1,17 @@
 # tf-e2-ssm-ec2-default-vpc
-Learn Terraform Exercise with EC2 Instance in default VPC with SSM
+Learn Terraform Exercise with EC2 Instance in default VPC and using SSM to login and using portforwarding to the instance.
+
+Goals of this Exercise:
+
+[ ] Read this entire readme
+[ ] Read and try to understand all the terraform files
+[ ] Connect to SSM on your instance, customize the code for your usecase
+[ ] Create a payload on the EC2 instance as in the example and configure a tunnel / port forwarding.
+[ ] improve your SSM setup: e.g. configure another shell -> Git Branch enable_session-manager-settings
+
+*:rocket:*
+
+Terraform workflow:
 
 ```
 terraform fmt
@@ -17,9 +29,9 @@ Now test access with Systems Manager and this console:
 ![AWS Systems Manager Console Step 3](./docs/AWS_SSM_E2_Step_3.png)
 ![AWS Systems Manager Console Step 4](./docs/AWS_SSM_E2_Step_4.png)
 
-### Access Instance via aws cli, similar to ssh
+### Access instance using aws cli -> similar to ssh
 
-Access the instance without Security Group configuration or punch holes
+Access the instance without configuring Security Group or using punch holes / VPNs or SSH as tunneling tool
 
 ```bash
 # find the instance ID based on Tag Name
@@ -32,24 +44,18 @@ INSTANCE_ID=$(aws ec2 describe-instances \
 aws ssm start-session  --region eu-west-1 \
                        --target $INSTANCE_ID
 ```
-### Use-Case: Use Port Forwarding to / from an instance
-
-Enter the Session console via AWS Console and start a python webserver on port 8000 for testing
-
-```
-bash
-cd
-curl -L https://lastweekinaws.com/blog > index.html
-python3 -m http.server 8000
-```
-
-#### port forwarding using aws systems manager session manager
+#### Use-Case: Use Port Forwarding to / from an instance
 
 Port forwarding using Systems Manager Session insted of ssh -L, see also
 
 https://aws.amazon.com/blogs/aws/new-port-forwarding-using-aws-system-manager-sessions-manager/
 
-Prereq: Install the Session Manager plugin for the AWS CLI, see also
+Preparatory Tasks:
+[ ] Install the Session Manager Plugin
+[ ] Create Test Payload / Website
+
+
+##### Install the Session Manager plugin for the AWS CLI, see also
 
 https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html
 
@@ -63,6 +69,19 @@ curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/mac/sessi
 unzip sessionmanager-bundle.zip
 sudo ./sessionmanager-bundle/install -i /usr/local/sessionmanagerplugin -b /usr/local/bin/session-manager-plugin
 ```
+
+##### Start Test Payload / Website
+
+use ssm session or use the SSM Session console via AWS Console and start a python webserver on port 8000 as a testing payload -> webserver
+
+```
+bash
+cd
+curl -L https://lastweekinaws.com/blog > index.html
+python3 -m http.server 8000
+```
+
+##### :chequered flag: port forwarding using aws systems manager session manager
 
 ```bash
 # find the instance ID based on Tag Name
@@ -78,7 +97,7 @@ aws ssm start-session  --region eu-west-1 \
                        --parameters '{"portNumber":["8080"],"localPortNumber":["9999"]}'
 ```
 
-### Improve the feeling in using bash
+#### Improve the feeling in SSM Session using bash (instead of sh)
 
 By default, sessions on EC2 instances for Linux start using the Bourne shell (sh). However, you might prefer to use another shell like bash. By allowing configurable shell profiles, you can customize preferences within sessions such as shell preferences, environment variables, working directories, and running multiple commands when a session is started.
 
