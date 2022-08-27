@@ -70,7 +70,7 @@
 
     
 
-  <meta name="request-id" content="C043:2C00:12802F4:144D16D:630A8763" data-pjax-transient="true"/><meta name="html-safe-nonce" content="7e4a3a5ff2bcfef416a8ea83d49819878fec6dad3edae7f975f157912ced5410" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDMDQzOjJDMDA6MTI4MDJGNDoxNDREMTZEOjYzMEE4NzYzIiwidmlzaXRvcl9pZCI6IjkxMTM4MDI1MzA4Mjc3MDAwNjciLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJmcmEifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="907e9092e9a7bf1c6804bd4d01def4a946d29eb2f485bfc739fd31fa0a61841e" data-pjax-transient="true"/>
+  <meta name="request-id" content="C055:2BFE:924E4F:AD7374:630A878E" data-pjax-transient="true"/><meta name="html-safe-nonce" content="f2d3eca4f9c068a7164c9b89cd5c80e8e270fffa198b611c84d2d49ca96f62e2" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDMDU1OjJCRkU6OTI0RTRGOkFENzM3NDo2MzBBODc4RSIsInZpc2l0b3JfaWQiOiI1MDM3MzQ5NDU3MDE3NjAzOTgyIiwicmVnaW9uX2VkZ2UiOiJmcmEiLCJyZWdpb25fcmVuZGVyIjoiZnJhIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="3c4f7e879b89c577b86e1726047eb1ded4ecbea5f3b9f5e512df301d2591e722" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:139468505" data-pjax-transient>
 
@@ -447,7 +447,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="jPSGWQckALdJZcIG0uU/AqaGTt1b9l6+u+GDLv+nl7ZtYrOeohU/ONzhMpCHHzJldQXptqddU3fXSh5+2J6N4Q==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="omUWJaoq/sfYwiJUaYvX/6Q7g+AesQl2OCs+CjWJ1pTY+OyIKL3gL55cmAMO9go5cupePWfDoH5AgxFsOUgbPA==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -1267,7 +1267,7 @@ the license notice for CC BY-NC-SA to the README.md.</pre></div>
     <div class="d-flex">
         
 <div class="ml-1" data-test-selector="edit-dropdown-menu-component">
-  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/santisoler/cc-licenses/edit/main/LICENSE-CC-BY-NC-SA" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="9n2jkCXO4eifQj8URX1XW-Q2w2hKJbHL7-v_rk0HtTxDwj_ELYAOsZdY6k1WXHmt6X8N08Hj14UjKSvJWjLgVA" autocomplete="off" />
+  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/santisoler/cc-licenses/edit/main/LICENSE-CC-BY-NC-SA" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="hOqCbkgGAWqRMsbfLIef2RjtEtmBPBWjSnZ7C06HiKQ2rgFV8HnnmqhoQ6YfYTPPI6X5QhQa8xcgp3Vs62TI8Q" autocomplete="off" />
       <button disabled="disabled" title="You must be signed in to make or propose changes" data-hotkey="e" data-disable-with="" data-test-selector="edit-icon-button" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
 </svg>
@@ -1277,7 +1277,7 @@ the license notice for CC BY-NC-SA to the README.md.</pre></div>
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/santisoler/cc-licenses/edit/main/LICENSE-CC-BY-NC-SA" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="jc-QaHb-EsxyXJtmVYBOxrmynCQJWs9r1_PWqxWb1SE4cAw8frD9lXpGTj9GoWAwtPtSn4KcqSUbMQLMAq6ASQ" autocomplete="off" />
+          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/santisoler/cc-licenses/edit/main/LICENSE-CC-BY-NC-SA" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="EYmND6wzTZXUQKZrkiZCKqOQ5WbETq6VehzkVarC-fSjzQ40FEyrZe0aIxKhwO48mNgO_VFoSCEQzeoyDyG5oQ" autocomplete="off" />
               <button disabled="disabled" title="You must be signed in to make or propose changes" data-test-selector="edit-text-button" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-muted text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
