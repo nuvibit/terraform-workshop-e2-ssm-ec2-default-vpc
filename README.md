@@ -1,6 +1,8 @@
 # tf-e2-ssm-ec2-default-vpc
 Learn Terraform Exercise with EC2 Instance in default VPC and using SSM to login and using portforwarding to the instance.
 
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 Goals of this Exercise:
 
 - [ ] Read this entire readme
@@ -107,3 +109,13 @@ By default, sessions on EC2 instances for Linux start using the Bourne shell (sh
 see also: https://docs.aws.amazon.com/systems-manager/latest/userguide/session-preferences-shell-config.html
 
 --> checkout git branch `enable_session-manager-settings`
+
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
