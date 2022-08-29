@@ -6,6 +6,9 @@ Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 Goals of this Exercise:
 
 - [ ] Read this entire readme
+
+- [ ] Clone this repository
+
 - [ ] Read and try to understand all the terraform files
 - [ ] Connect to SSM on your instance, customize the code for your usecase
 - [ ] Create a payload on the EC2 instance as in the example and configure a tunnel / port forwarding.
