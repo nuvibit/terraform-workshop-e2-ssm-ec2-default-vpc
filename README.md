@@ -102,7 +102,7 @@ INSTANCE_ID=$(aws ec2 describe-instances \
 aws ssm start-session  --region eu-west-1 \
                        --target $INSTANCE_ID \
                        --document-name AWS-StartPortForwardingSession \
-                       --parameters '{"portNumber":["8080"],"localPortNumber":["9999"]}'
+                       --parameters '{"portNumber":["8000"],"localPortNumber":["9999"]}'
 ```
 
 #### Improve the feeling in SSM Session using bash (instead of sh)
