@@ -1,4 +1,4 @@
-# tf-e2-ssm-ec2-default-vpc
+# terraform-workshop-e2-ssm-ec2-default-vpc
 Learn Terraform Exercise with EC2 Instance in default VPC and using SSM to login and using portforwarding to the instance.
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
